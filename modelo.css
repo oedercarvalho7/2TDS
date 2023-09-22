@@ -1,0 +1,120 @@
+div.geral{
+    height: 1000px;
+    width:1000px;
+    }
+    
+    
+    
+    h1{
+    font-family:arial, sans-serif;
+    
+    }
+    
+    h2{
+    font-family: impact, fantasy;
+        
+    }
+    
+    h3{
+     font-family:arial marrow;
+        
+    }
+    
+    h4{
+    font-family: times, times new rosan ;
+        
+    }
+    
+    h5{
+    font-family: arial narrow;
+        
+    }
+    
+    h6{
+     font-family: arial narrow;
+        
+    }
+    
+    
+    h1.Pagina_principal{
+        color: red;
+        font-size:14px;
+        text-align:left;
+        font-family:arial,helvetica,sans-serif;
+    
+    }
+    
+    h2.Pagina_principal{
+        color: green;
+        font-size:14px;
+        text-align:left;
+        font-family:arial,helvetica,sans-serif;
+        
+    }
+    
+    h3.Pagina_principal{
+    color: yellow;
+    font-size:14px;
+    text-align:left;
+    font-family:arial,helvetica,sans-serif;
+        
+    }
+    
+    h4.Pagina_principal{
+        color: blue;
+        font-size:14px;
+        text-align:left;
+        font-family:arial,helvetica,sans-serif;
+        
+    }
+    
+    h5.Pagina_principal{
+        color: black;
+        font-size:14px;
+        text-align:left;
+        font-family:arial,helvetica,sans-serif;
+        
+    }
+    
+    
+    h6.Pagina_principal{
+        color: pink ;
+        font-size:14px;
+        text-align:left;
+        font-family:arial,helvetica,sans-serif;
+        
+    }
+    
+    div.conteudo-principal{
+     height:100px;
+    /*height definição de altura com o valor 100px */
+    width:100px;
+     /*width definição de largura com o valor 100px */
+     margin:0 0 0 10px;
+     /* margin e a margem do site */
+     padding:10px 0 0 10px;
+     /* padding é o espaçamento interno */
+     border:5px solid red;
+     /*border é a borda */
+    }
+    
+    div.conteudo1-principal{
+    height:100px;
+    width:80px;
+    padding:10px 0 0 10px;
+    border: 5px solid red;
+    float: left ;
+    margin: 0 0 0 10px;
+    
+    }
+    
+    div.conteudo2-principal{
+    height: 100px;
+    width: 80px ;
+    margin: 0 0 0 10px;
+    padding:10px 0 0 10px ;
+    border:5px solid red ;
+    float:left;
+    
+    }
+    
