@@ -115,6 +115,13 @@ div.geral{
     padding:10px 0 0 10px ;
     border:5px solid red ;
     float:left;
-    
     }
-    
+    p.nao_flutuar {clear:both;}
+
+    /*############################################# PARTE 07 - Display Block ######################################*/
+    .conteudo4{
+    display: block;
+    width: 150px;
+    background-color: #CCC;
+    border: 1px solid black;
+    }
