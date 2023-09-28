@@ -1,133 +1,146 @@
-div.geral{
-    height: 1000px;
-    width:1000px;
+
+    /*##################################### PARTE 01 - H1 ao H6_Título e Subtítulos: #####################################*/
+/*Sendo que o selector, representa qualquer tag HTML. Dessa forma, ao invés    de
+formatar todo título H1 individualmente, usamos o seguinte CSS, para     formatar
+todos de uma vez só.
+Assim, toda tag h1 que for utilizada no HTML, será formatada com a fonte Arial:*/
+
+h1 {
+    font-family: Arial, sans-serif 
+    }
+       
+    h2 {
+    font-family: Jazz LET, fantasy ;
     }
     
-    
-    
-    h1{
-    font-family:arial, sans-serif;
-    
+    h3 {
+    font-family:Trattatello, fantasy;
     }
     
-    h2{
-    font-family: impact, fantasy;
-        
+    h4 {
+    font-family: Brush Script MT, Brush Script Std, cursive;
     }
     
-    h3{
-     font-family:arial marrow;
-        
+    h5 {
+    font-family:Impact;
     }
     
-    h4{
-    font-family: times, times new rosan ;
-        
+    h6 {
+    font-family: Impact, fantasy;
     }
     
-    h5{
-    font-family: arial narrow;
-        
+    /*##################################### PARTE 02 - H1 Pagina_Principal: ##############################################*/
+    h1.pagina_principal {
+    color: blue; font-size: 14px;  
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;  
     }
     
-    h6{
-     font-family: arial narrow;
-        
+    h2.pagina_principal {
+    color: red; font-size: 12px;  
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;  
     }
     
-    
-    h1.Pagina_principal{
-        color: red;
-        font-size:14px;
-        text-align:left;
-        font-family:arial,helvetica,sans-serif;
-    
+    h3.pagina_principal {
+    color: yellow; font-size: 10px;  
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;  
     }
     
-    h2.Pagina_principal{
-        color: green;
-        font-size:14px;
-        text-align:left;
-        font-family:arial,helvetica,sans-serif;
-        
+    h4.pagina_principal {
+    color: teal; font-size: 8px;  
+    text-align: maroon;
+    font-family: Arial, Helvetica, sans-serif;  
     }
     
-    h3.Pagina_principal{
-    color: yellow;
-    font-size:14px;
-    text-align:left;
-    font-family:arial,helvetica,sans-serif;
-        
+    h5.pagina_principal {
+    color: olive; font-size: 7px;  
+    text-align: blue;
+    font-family: Arial, Helvetica, sans-serif;  
     }
     
-    h4.Pagina_principal{
-        color: blue;
-        font-size:14px;
-        text-align:left;
-        font-family:arial,helvetica,sans-serif;
-        
+    h6.pagina_principal {
+    color: navy; font-size: 6px;  
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;  
     }
     
-    h5.Pagina_principal{
-        color: black;
-        font-size:14px;
-        text-align:left;
-        font-family:arial,helvetica,sans-serif;
-        
-    }
-    
-    
-    h6.Pagina_principal{
-        color: pink ;
-        font-size:14px;
-        text-align:left;
-        font-family:arial,helvetica,sans-serif;
-        
-    }
-    
-    div.conteudo1-principal{
-     height:100px;
-    /*height definição de altura com o valor 100px */
-    width:100px;
-     /*width definição de largura com o valor 100px */
-     margin:0 0 0 10px;
-     /* margin e a margem do site */
-     padding:10px 0 0 10px;
-     /* padding é o espaçamento interno */
-     border:5px solid red;
-     /*border é a borda */
-    }
-    
-    div.conteudo2-principal {
-    height:100px;
-    width:80px;
-    padding:10px 0 0 10px;
-    border: 5px solid red;
-    float: left ;
+    /*##################################### PARTE 03 - Elementos DIV : ###################################################*/
+    div.conteudo-principal {
+    height: 100px;
+    /*A propriedade height, serve para definir a altura da caixa, no exemplo acima foi setado
+    o valor de 100px.*/
+    width: 80px;   
+    /*A propriedade width, serve para definir a largura da caixa, no exemplo acima foi setado
+    o valor de 80px.*/
     margin: 0 0 0 10px;
+    /*A propriedade margin, serve para definir uma margem externa, ou seja, fora da caixa.*/
+    /*Os valores da propriedade margin, seguem a seguinte ordem: top; right;  bottom;
+    left, ou seja, TOPO; DIREITA; RODAPÉ; ESQUERDA. Perceba que começa com o     lado
+    superior e segue no sentido horário. */
+    
+    padding: 10px 0 0 10px;   
+    /*A propriedade padding, serve para definir uma margem interna, ou seja,   dentro
+    da caixa. Os valores começam do lado superior, e seguem no sentido horário.
+    */
+    border: 5px solid red;   
+    /*A propriedade border, serve para definir uma borda para a caixa. No     exemplo
+    acima, foi definido, nesta ordem arbitrária: Tamanho da borda de 5px;     sólida;
+    e de cor red. */
     }
     
-    /*############################################# PARTE 06 - Clear ######################################*/
+    /*##################################### PARTE 04 - Caixas Lado a Lado : ##############################################*/
+    div.conteudo1-principal {
+    height: 100px;
+    width: 80px;
+    margin: 0 0 0 10px;
+    padding: 10px 0 0 10px;
+    border: 5px solid red;
+    float: left;
+    }
+    
+    /*##################################### PARTE 05 - FLOAT: ############################################################*/
+    div.conteudo2-principal {
+    height: 70px; width: 60px; margin: 0 0 0 10px;
+    padding: 10px 0 0 10px; border: 5px solid red;
+    float: left;
+    }
+    
+    /*##################################### PARTE 06 - Clear: ############################################################*/
     div.conteudo3-principal {
     height: 100px;
-    width: 80px ;
+    width: 80px;
     margin: 0 0 0 10px;
-    padding:10px 0 0 10px ;
-    border:5px solid red ;
-    float:left;
+    padding:10 px 0 0 10px;
+    border: 5px solid red;
+    float:left; 
     }
     p.nao_flutuar {clear:both;}
-
-    /*############################################# PARTE 07 - Display Block ######################################*/
+    
+    /*##################################### PARTE 07 - Display: Block: ###################################################*/
     .conteudo4 {
     display: block;
     width: 150px;
     background-color: #CCC;
     border: 1px solid black;
     }
-
-    /*############################################# PARTE 08 - Display: Inline: ######################################*/
+    
+    /*##################################### PARTE 08 - Display: Inline: ##################################################*/
     .conteudo5 {
-        display: inline; width 150px;
-        background-color: #CCC; border: 1px solid black;
+    display: inline; width: 150px;
+    background-color: #CCC; border: 1px solid black;
+    }
+    
+    /*##################################### PARTE 09 - Position: Static ##################################################*/
+    div#koala {
+    position: relative;
+    top: 60px; /*Faz imagem SUBIRr*/
+    left: 60px;/*Desloca a imagem para DIREITA*/ 
+    }
+    
+    div#pinguins {
+    position: relative;
+    top: 50px;
+    left: 60px;
     }
