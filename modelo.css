@@ -145,4 +145,31 @@ h1 {
     left: 60px;
     }
 
-    
+    /*##################################### PARTE 10 - Position: Absolute ##################################################*/
+    div#koala1{
+    position: relative;
+    top: 30px; /*Faz imagem SUBIR*/
+    left: 30px; /*Desloca a imagem para DIREITA*/
+    }
+
+    div#pinguins1 {
+    position: absolute;
+    top: 2200px;
+    left: 900px;
+    }
+
+    /*##################################### PARTE 11 - Z-INDEX ##################################################*/
+    div.primeiro1 {
+    position: absolute;
+    top: 2760px;
+    left: 200px;
+    background-color: red;
+    z-index: 1;
+    }
+    div.segundo2 {
+    position: absolute;
+    top: 2800px;
+    left: 300px;
+    background-color: blue;
+    z-index: 1;
+    }
