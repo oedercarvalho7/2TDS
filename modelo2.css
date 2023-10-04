@@ -1,1 +1,11 @@
 /*###################################### PARTE 14 - Letter-Spacing ######################################*/
+p#abc {letter-spacing: 5px;}
+
+/*###################################### PARTE 15 - Word-Spacing ######################################*/
+p#abcd {word-spacing: 15px;}
+
+/*###################################### PARTE 16 - Text-Align ######################################*/
+p.left {text-align: left}
+p.right {text-align: right}
+p.justify {text-align: justify}
+p.center {text-align: center}
