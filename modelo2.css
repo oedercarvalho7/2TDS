@@ -22,4 +22,11 @@ P.maiusculo {text-transform: uppercase;}
 P.minusculo {text-transform: lowercase;}
 
 /*###################################### PARTE 19 - Vertical-Align ######################################*/
-p.exemplo
+p{
+width: 600px; height: 500px;
+background-color: #CCC; border: 1px solid #000;
+margin-bottom: 10px; font-size: 22px;
+}
+span.super{vertical-align: super;}
+span.porcentagem{vertical-align: 100%;}
+span.medida{vertical-align: 25px;}
