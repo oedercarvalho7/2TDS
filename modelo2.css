@@ -17,6 +17,6 @@ p.line-through {text-decoration: line-through;}
 a {text-decoration: none;}
 
 /*###################################### PARTE 18 - Text-Transform ######################################*/
-p.primeiro-maiusculo {text-transform: capitalize;}
-p.maiusculo {text-transform: uppercase;}
-p.minusculo {text-transform: lowercase;}
+P.primeiro-maiusculo {text-transform: capitalize;}
+P.maiusculo {text-transform: uppercase;}
+P.minusculo {text-transform: lowercase;}
