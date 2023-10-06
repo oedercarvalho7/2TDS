@@ -13,5 +13,5 @@ p.center {text-align: center}
 /*###################################### PARTE 17 - Text-Underline ######################################*/
 p.underline {text-decoration: underline;}
 p.overline {text-decoration: overline;}
-p.line-throught {text-decoration: line-through;}
+p.line-through {text-decoration: line-through;}
 a {text-decoration: none;}
