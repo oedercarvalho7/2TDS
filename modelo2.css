@@ -15,3 +15,8 @@ p.underline {text-decoration: underline;}
 p.overline {text-decoration: overline;}
 p.line-through {text-decoration: line-through;}
 a {text-decoration: none;}
+
+/*###################################### PARTE 18 - Text-Transform ######################################*/
+p.primeiro-maiusculo {text-transform: capitalize;}
+p.maiusculo {text-transform: uppercase;}
+p.minusculo {text-transform: lowercase;}
