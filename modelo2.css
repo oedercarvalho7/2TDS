@@ -1,22 +1,37 @@
-/*###################################### PARTE 14 - Letter-Spacing ######################################*/
-p#abc {letter-spacing: 5px;}
+/*-- PARTE 14_Letter-spacing. */
+p#abc{letter-spacing: 5px;}
 
-/*###################################### PARTE 15 - Word-Spacing ######################################*/
-p#abcd {word-spacing: 15px;}
+/*-- PARTE 15_word-spacing.  */
+p#abcd{word-spacing: 15px;}
 
-/*###################################### PARTE 16 - Text-Align ######################################*/
-p.left {text-align: left}
-p.right {text-align: right}
-p.justify {text-align: justify}
-p.center {text-align: center}
+/*-- PARTE 16_Aliamento.  */
+p.left{text-align: left;}
+p.right{text-align: right;}
+p.justify{text-align: line-justify;}
+p.center{text-align: center;}
 
-/*###################################### PARTE 17 - Text-Underline ######################################*/
-p.underline {text-decoration: underline;}
-p.overline {text-decoration: overline;}
-p.line-through {text-decoration: line-through;}
-a {text-decoration: none;}
+/*-- PARTE 17_Texto-underline.  */
+p.underline{text-decoration: underline;}
+p.overline{text-decoration: overline;}
+p.line-through{text-decoration: line-through;}
+a{text-decoration: none;}
 
-/*###################################### PARTE 18 - Text-Transform ######################################*/
-P.primeiro-maiusculo {text-transform: capitalize;}
-P.maiusculo {text-transform: uppercase;}
-P.minusculo {text-transform: lowercase;}
+
+/*-- PARTE 18_Texto-transform.  */
+P.primeiro-maiusculo{text-transform:capitalize;}
+P.maiusculo{text-transform:uppercase;}
+P.minusculo{text-transform:lowercase;}
+
+/*-- PARTE 19_Texto-transform.  */
+p{
+width: 650px ;
+height: 50px ;
+background-color: #cccc ;
+border: 1px solid black;
+margin-bottom:10px ;
+font-size: 22px;
+}
+
+span.medida{vertical-align: 25px;}
+span.super{vertical-align: super;}
+span.porcentagem{vertical-align: 100%;}
